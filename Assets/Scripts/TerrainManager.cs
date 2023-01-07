@@ -325,7 +325,8 @@ public class TerrainManager : MonoBehaviour {
     [System.Serializable]
     public class TreeTypeDescriptor {
         public Mesh Mesh;
-        public Mesh LODMesh;
+        public Mesh LOD1Mesh;
+        public Mesh LOD2Mesh;
         public float SnowMultiplier;
         public float LODSnowMultiplier;
     } 

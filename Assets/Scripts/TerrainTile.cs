@@ -142,10 +142,10 @@ public class TerrainTile : MonoBehaviour {
 
             job.Descriptors[i].SnowMultiplier = descriptors[i].LODSnowMultiplier;
 
-            job.Descriptors[i].OldNormals   = descriptors[i].LODMesh.normals;
-            job.Descriptors[i].OldTriangles = descriptors[i].LODMesh.triangles;
-            job.Descriptors[i].OldUVs       = descriptors[i].LODMesh.uv;
-            job.Descriptors[i].OldVertices  = descriptors[i].LODMesh.vertices;
+            job.Descriptors[i].OldNormals   = descriptors[i].LOD2Mesh.normals;
+            job.Descriptors[i].OldTriangles = descriptors[i].LOD2Mesh.triangles;
+            job.Descriptors[i].OldUVs       = descriptors[i].LOD2Mesh.uv;
+            job.Descriptors[i].OldVertices  = descriptors[i].LOD2Mesh.vertices;
         }
 
         job.Initialize();

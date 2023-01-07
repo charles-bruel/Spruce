@@ -281,12 +281,16 @@ MonoBehaviour:
   RockSnowMultiplier: 2
   TreeTypeDescriptors:
   - Mesh: {fileID: -1208472929742125437, guid: 60575d7ebbe98f442986faa876a0a6bb, type: 3}
-    LODMesh: {fileID: -8342124974956431378, guid: 60575d7ebbe98f442986faa876a0a6bb,
+    LOD1Mesh: {fileID: 1099505867740330605, guid: 60575d7ebbe98f442986faa876a0a6bb,
+      type: 3}
+    LOD2Mesh: {fileID: -3857900874184001363, guid: 60575d7ebbe98f442986faa876a0a6bb,
       type: 3}
     SnowMultiplier: 0.225
     LODSnowMultiplier: 0.6
   - Mesh: {fileID: -1759674330777327466, guid: 60575d7ebbe98f442986faa876a0a6bb, type: 3}
-    LODMesh: {fileID: -5904110200254674192, guid: 60575d7ebbe98f442986faa876a0a6bb,
+    LOD1Mesh: {fileID: 5364577067246916170, guid: 60575d7ebbe98f442986faa876a0a6bb,
+      type: 3}
+    LOD2Mesh: {fileID: -205853000105439931, guid: 60575d7ebbe98f442986faa876a0a6bb,
       type: 3}
     SnowMultiplier: 0.2
     LODSnowMultiplier: 0.2
